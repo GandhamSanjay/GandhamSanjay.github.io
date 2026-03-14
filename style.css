@@ -1,0 +1,30 @@
+/* 
+   We will define our colors, typography, and spacing here.
+   Right now, it's just a completely reset blank slate.
+*/
+
+:root {
+    /* We can define our color palette variables here later */
+    --bg-color: #ffffff;
+    --text-color: #111111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
